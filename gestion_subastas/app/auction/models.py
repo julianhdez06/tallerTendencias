@@ -1,6 +1,5 @@
 from django.db import models
 
-from app.auction.models import Teacher
 
 # Create your models here.
 class Auction(models.Model):

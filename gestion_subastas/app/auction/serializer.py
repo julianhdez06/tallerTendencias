@@ -1,9 +1,9 @@
 from rest_framework import serializers
 
-from .models import auction
+from .models import Auction
 
 class auctionSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = auction
+        model = Auction
         fields = ('__all__')
