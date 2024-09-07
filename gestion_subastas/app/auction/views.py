@@ -1,7 +1,5 @@
 from django.shortcuts import render
-
 from .models import Auction
-from rest_framework.generics import ListAPIView,CreateAPIView,RetrieveAPIView,DestroyAPIView,UpdateAPIView
 from .serializer import AuctionSerializer
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import DjangoFilterBackend
