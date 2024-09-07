@@ -1,4 +1,5 @@
 from django.db import models
+from app.auction.models import Auction
 
 class Item(models.Model):
     nombre = models.CharField(max_length=255)
