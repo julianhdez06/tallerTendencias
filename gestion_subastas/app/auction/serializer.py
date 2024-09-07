@@ -2,7 +2,7 @@ from rest_framework import serializers
 
 from .models import Auction
 
-class auctionSerializer(serializers.ModelSerializer):
+class AuctionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Auction
