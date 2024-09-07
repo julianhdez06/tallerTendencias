@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'app.item',
     'app.bid',
     'app.auction',
-    'app.usuario',
+    
     
 ]
 
