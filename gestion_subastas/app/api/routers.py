@@ -6,7 +6,7 @@ from ..item.views import *
 router = DefaultRouter()
 
 router.register(r'auction', AuctionViewSet, basename='User')
-router.register(r'bid', BidViewSet, basename='Course')
-router.register(r'item', ItemViewSet, basename='Grade')
+router.register(r'bid', BidViewSet, basename='Bid')
+router.register(r'item', ItemViewSet, basename='Item')
 
 urlpatterns = router.urls
