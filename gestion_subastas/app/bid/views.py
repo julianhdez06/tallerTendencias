@@ -1,4 +1,4 @@
-from django.shortcuts import renderr
+from django.shortcuts import render
 from .models import Bid
 from .serializers import BidSerializer
 from rest_framework import viewsets, filters
